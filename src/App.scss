@@ -1,3 +1,9 @@
 body {
     margin: 0;
 }
+
+.portfolio-main-page {
+    position: relative;
+    transform: scale(1);
+    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

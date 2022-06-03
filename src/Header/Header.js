@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from '../assets/logo-big.png';
+import logo from "../assets/images/icon.svg";
 import './Header.scss';
 
 function Header() {
   return (
     <header>
-      <img src={logo} className="App-logo" alt="logo" />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="portfolio-nav">
+              <img src={logo} alt='icon' />
+              <span>{"<shaheb />"}</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   )
 }
